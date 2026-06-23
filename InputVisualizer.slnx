@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/InputVisualizer.Core/InputVisualizer.Core.csproj" />
+    <Project Path="src/InputVisualizer.Windows/InputVisualizer.Windows.csproj" />
+    <Project Path="src/InputVisualizer.WinUI/InputVisualizer.WinUI.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/InputVisualizer.Tests/InputVisualizer.Tests.csproj" />
+  </Folder>
+</Solution>

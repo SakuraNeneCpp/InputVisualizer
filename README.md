@@ -595,6 +595,18 @@ YAML設定
 MSIX配布
 ```
 
+## 開発
+
+初回はNuGet復元を行ってからビルドします。
+
+```powershell
+dotnet restore InputVisualizer.slnx
+dotnet build InputVisualizer.slnx -m:1
+dotnet test tests\InputVisualizer.Tests\InputVisualizer.Tests.csproj
+```
+
+WinUI/XAML生成を含むため、この環境ではソリューションビルドを `-m:1` で直列化します。
+
 ## 免責
 
 このツールは、配信者本人の操作を視覚化するためのものです。  

@@ -1,0 +1,56 @@
+overlay:
+  enabled_by_default: false
+  manual_resume_required: true
+  show_status_label: true
+  panic_hotkey: "Ctrl+Alt+F12"
+
+safety:
+  whitelist_only: true
+  hide_on_focus_lost: true
+  hide_on_unknown_window: true
+  hide_on_text_input_mode: true
+  hide_on_password_field_detected: true
+  hide_on_clipboard_paste: true
+  disable_auto_resume_after_risk: true
+
+input:
+  store_history: false
+  write_key_logs: false
+  allow_text_keys: false
+  allow_gamepad: true
+  allow_mouse_buttons: true
+  allow_mouse_movement: false
+
+allowed_processes:
+  - "example-game.exe"
+
+allowed_keys:
+  keyboard:
+    - "W"
+    - "A"
+    - "S"
+    - "D"
+    - "Space"
+    - "LeftShift"
+    - "LeftCtrl"
+    - "Q"
+    - "E"
+    - "R"
+    - "F"
+  mouse:
+    - "Mouse1"
+    - "Mouse2"
+    - "Mouse3"
+    - "WheelUp"
+    - "WheelDown"
+  gamepad:
+    - "A"
+    - "B"
+    - "X"
+    - "Y"
+    - "LB"
+    - "RB"
+    - "LT"
+    - "RT"
+    - "LeftStick"
+    - "RightStick"
