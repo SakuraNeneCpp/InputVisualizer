@@ -582,6 +582,19 @@ dummy-password-DO-NOT-USE
 
 ---
 
+## テックスタック
+```
+C# / .NET 10 LTS
+WinUI 3
+Raw Input
+XInput
+UI Automation
+CsWin32
+xUnit
+YAML設定
+MSIX配布
+```
+
 ## 免責
 
 このツールは、配信者本人の操作を視覚化するためのものです。  
